@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.navigation {
+
+    height: 100vh;
+
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: -50px;
+    margin-bottom: 30px;
+
+
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.logo:hover {
+    color: #f9004d;
+    ;
+    transition: .4s;
+}
+
+.logo span {
+    color: #f9004d;
+    text-transform: uppercase;
+
+}
+
+.logo span:hover {
+    color: white;
+    transition: .4s;
+}
+
+nav ul li {
+    color: white;
+    padding: 10px 25px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+
+nav ul li a:hover {
+    color: #f9004d;
+    transition: .4s;
+
+}
+
+.main {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+    margin: 0 auto;
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+
+
+}
+
+.main img {
+    height: auto;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.about-text {
+    width: 550px;
+}
+
+.about-text h2 {
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+
+
+}
+
+h5 span {
+    color: #f9004d;
+}
+
+p span {
+    color: #f9004d;
+}
+
+.about-text p {
+
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button {
+    background-color: #f9004d;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 13px 30px;
+    border-radius: 50px;
+    transition: .5s;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+.projects h1 {
+    text-align: center;
+    color: #f9004d;
+    text-transform: capitalize;
+    padding-top: 50px;
+
+}
+
+
+
+
+/***************
+
+****************/
+.information h5 {
+    color: #f9004d;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: ;
+}
+.container {
+    display: flex;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.container .card {
+    height: 500px;
+    width: 335px;
+    padding: 30px 35px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #191919;
+    color: white;
+    margin-bottom: 50px;
+    justify-content: center;
+
+}
+
+button .card-button{
+    margin-top: 100px;
+}
