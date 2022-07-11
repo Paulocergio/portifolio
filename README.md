@@ -15,8 +15,5 @@
 - ` 2`: Esste Projeto não encontra-se na  versão mobile.
 - `Funcionalidade`: Vesão mobile sera adicionada , assim que projeto for fianlizado .
 
-📌 Tecnologias utilizadas:
-
-<i class="fa-brands fa-html5"></i>
-
+  
 
