@@ -11,6 +11,7 @@ body {
 .navigation {
 
     height: 100vh;
+    
 
 
 }
@@ -79,7 +80,6 @@ nav ul li a:hover {
     width: 100%;
     padding: 100px 0px;
     background-color: #191919;
-    margin: 0 auto;
     width: 1130px;
     max-width: 95%;
     margin: 0 auto;
@@ -87,6 +87,7 @@ nav ul li a:hover {
     align-items: center;
     justify-content: space-around;
     border-radius: 10px;
+
 
 
 }
@@ -158,41 +159,74 @@ button:hover {
 
 }
 
+h1{
+    text-align: center;
+    color: #f9004d;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.container .container-main{
+    
+    width: 300px;
+    padding: 30px 35px;
+    border-radius: 10px;
+    background-color: #191919;
+    color: white;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.linkedin{
+    color: #0e76a8;
+    text-align: center;
+}
+.github{
+    color:#5b5959;
+    text-align: center;
+}
+.whatsapp{
+    color: #a4c639 ;
+    text-align: center;
+}
+
+
 
 
 
 /***************
-
-****************/
-.information h5 {
-    color: #f9004d;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    text-align: center;
-    text-transform: capitalize;
-    font-size: ;
-}
 .container {
     display: flex;
     display: inline-block;
     text-align: center;
     letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+    
+
 }
 
 .container .card {
-    height: 500px;
-    width: 335px;
+
+    width: 300px;
     padding: 30px 35px;
-    margin-left: 10px;
-    margin-top: 10px;
     border-radius: 10px;
     background-color: #191919;
     color: white;
-    margin-bottom: 50px;
-    justify-content: center;
+    
+ 
 
 }
 
 button .card-button{
     margin-top: 100px;
 }
+****************/
